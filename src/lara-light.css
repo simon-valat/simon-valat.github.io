@@ -1947,7 +1947,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   border-color: transparent;
 }
 .p-button.p-button-text:enabled:hover {
-  background: rgba(20, 184, 166, 0.04);
+  background: var(--dark-secondary);
   color: #14B8A6;
   border-color: transparent;
 }
@@ -1970,7 +1970,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-button:focus {
   outline: 0 none;
   outline-offset: 0;
-  box-shadow: 0 0 0 0.2rem #99F6E4;
+  box-shadow: 0 0 0 0.2rem var(--dark-secondary);
 }
 .p-button .p-button-label {
   transition-duration: 0.2s;
@@ -6332,9 +6332,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   background-color: #14B8A6;
 }
 
-.p-button:focus {
+/* .p-button:focus {
   box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #75f0e3, 0 1px 2px 0 black;
-}
+} */
 .p-button.p-button-secondary:enabled:focus {
   box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #b0b9c6, 0 1px 2px 0 black;
 }

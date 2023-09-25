@@ -3,5 +3,6 @@
   src: url('assets/font/Biome-W01-Regular-1.ttf');
 }
 body {
+  background-color: var(--light-main);
     font-family: var(--font-family);
 }
