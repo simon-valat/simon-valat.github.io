@@ -4,6 +4,11 @@
 }
 
 :root {
+  --dark-main : #264D4D;
+  --dark-secondary : #85A3A3;
+  --light-secondary : #99CCCC;
+  --light-main : #D9D9D9;
+  --neutral : #AEC2C2;
   --surface-a:#ffffff;
   --surface-b:#f8f9fa;
   --surface-c:#e9ecef;
@@ -1131,8 +1136,8 @@ p-inputnumber.p-inputnumber-clearable .p-inputnumber-buttons-horizontal .p-input
   height: 1.75rem;
 }
 .p-inputswitch .p-inputswitch-slider {
-  background: #ced4da;
-  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  background: var(--dark-main);
+  /* transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s; */
   border-radius: 30px;
 }
 .p-inputswitch .p-inputswitch-slider:before {
@@ -1150,10 +1155,11 @@ p-inputnumber.p-inputnumber-clearable .p-inputnumber-buttons-horizontal .p-input
 .p-inputswitch.p-focus .p-inputswitch-slider {
   outline: 0 none;
   outline-offset: 0;
-  box-shadow: 0 0 0 0.2rem #99F6E4;
+  /* box-shadow: 0 0 0 0.2rem #99F6E4; */
 }
 .p-inputswitch:not(.p-disabled):hover .p-inputswitch-slider {
-  background: #b6bfc8;
+  /* background: #b6bfc8; */
+  background-color: var(--dark-secondary);
 }
 .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
   background: #14B8A6;
@@ -5081,9 +5087,10 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-menubar {
   padding: 0.5rem;
-  background: #f8f9fa;
-  color: #495057;
-  border: 1px solid #dee2e6;
+  background: var(--light-main);
+  /* color: #495057; */
+  color : var(--dark-main);
+  /* border: 1px solid #dee2e6; */
   border-radius: 6px;
 }
 .p-menubar .p-menubar-root-list {

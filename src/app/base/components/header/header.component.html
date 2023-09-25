@@ -1,12 +1,26 @@
 <div class="card">
   <p-menubar [model]="menuItems">
       <ng-template pTemplate="start">
-        <div>
+        <div class="flex gap-8">
+          <div class="flex align-items-center">
+            <h1 class="uppercase">Simon Valat</h1>
+          </div>
+          <div class="flex align-items-center">
+            <span class="text-xl">{{'BASE.title' | translate | uppercase}}</span>
+          </div>
         </div>
-        <h1>{{'BASE.developper' | translate | uppercase}}</h1>
       </ng-template>
       <ng-template pTemplate="end">
-        <p-inputSwitch [(ngModel)]="darkTheme" (onChange)="onThemeChange()"></p-inputSwitch>
+        <div class="flex gap-2 pr-2">
+          <div class="flex align-items-center">
+            <p-button styleClass="p-button-text" (click)="onLangChange()">
+              <img [src]="'assets/images/'+lang+'.png'" style="width: 1.5rem" />
+          </p-button>
+          </div>
+          <div class="flex align-items-center">
+            <p-inputSwitch [(ngModel)]="darkTheme" (onChange)="onThemeChange()"></p-inputSwitch>
+          </div>
+        </div>
       </ng-template>
   </p-menubar>
 </div>
