@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Biome;
+  src: url('assets/font/Biome-W01-Regular-1.ttf');
+}
 body {
     font-family: var(--font-family);
 }

@@ -1,1 +1,12 @@
-<p>header works!</p>
+<div class="card">
+  <p-menubar [model]="menuItems">
+      <ng-template pTemplate="start">
+        <div>
+        </div>
+        <h1>{{'BASE.developper' | translate | uppercase}}</h1>
+      </ng-template>
+      <ng-template pTemplate="end">
+        <p-inputSwitch [(ngModel)]="darkTheme" (onChange)="onThemeChange()"></p-inputSwitch>
+      </ng-template>
+  </p-menubar>
+</div>
