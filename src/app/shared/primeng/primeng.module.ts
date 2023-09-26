@@ -6,6 +6,7 @@ import { InputSwitchModule } from 'primeng/inputswitch';
 import { ButtonModule } from 'primeng/button';
 import { ChartModule } from 'primeng/chart';
 import { CardModule } from 'primeng/card';
+import { TooltipModule } from 'primeng/tooltip';
 @NgModule({
   declarations: [],
   imports: [
@@ -15,7 +16,8 @@ import { CardModule } from 'primeng/card';
     InputSwitchModule,
     ButtonModule,
     ChartModule,
-    CardModule
+    CardModule,
+    TooltipModule
   ],
   exports : [
     MenubarModule,
@@ -23,7 +25,8 @@ import { CardModule } from 'primeng/card';
     InputSwitchModule,
     ButtonModule,
     ChartModule,
-    CardModule
+    CardModule,
+    TooltipModule
   ]
 })
 export class PrimengModule { }
