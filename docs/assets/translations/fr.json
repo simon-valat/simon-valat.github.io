@@ -3,6 +3,8 @@
     "title" : "Tech lead / développeur"
   },
   "SKILLS" : {
-    "title" : "compétences"
+    "technical" : "compétences techniques",
+    "soft": "compétences autres",
+    "year": "XP : {{value}} ans"
   }
 }
