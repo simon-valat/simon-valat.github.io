@@ -3728,11 +3728,11 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-timeline .p-timeline-event-marker {
-  border: 2px solid #14B8A6;
+  border: 2px solid var(--dark-secondary);
   border-radius: 50%;
   width: 1rem;
   height: 1rem;
-  background-color: #ffffff;
+  background-color: var(--light-main);
 }
 .p-timeline .p-timeline-event-connector {
   background-color: #dee2e6;

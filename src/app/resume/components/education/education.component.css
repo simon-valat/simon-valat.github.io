@@ -1,0 +1,18 @@
+.icon {
+    color : var(--light-main);
+}
+
+:host ::ng-deep .p-card.skill-card {
+    background-color: var(--light-main);
+    color: var(--dark-main);
+   
+}
+
+
+:host ::ng-deep .p-card.skill-card .p-card-title {
+    font-size: 1.25rem;
+}
+
+:host ::ng-deep .p-card .p-card-content{
+    padding : 0;
+}

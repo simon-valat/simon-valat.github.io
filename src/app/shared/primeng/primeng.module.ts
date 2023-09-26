@@ -7,6 +7,7 @@ import { ButtonModule } from 'primeng/button';
 import { ChartModule } from 'primeng/chart';
 import { CardModule } from 'primeng/card';
 import { TooltipModule } from 'primeng/tooltip';
+import { TimelineModule } from 'primeng/timeline';
 @NgModule({
   declarations: [],
   imports: [
@@ -17,7 +18,8 @@ import { TooltipModule } from 'primeng/tooltip';
     ButtonModule,
     ChartModule,
     CardModule,
-    TooltipModule
+    TooltipModule,
+    TimelineModule
   ],
   exports : [
     MenubarModule,
@@ -26,7 +28,8 @@ import { TooltipModule } from 'primeng/tooltip';
     ButtonModule,
     ChartModule,
     CardModule,
-    TooltipModule
+    TooltipModule,
+    TimelineModule
   ]
 })
 export class PrimengModule { }
