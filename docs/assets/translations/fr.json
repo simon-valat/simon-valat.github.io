@@ -10,5 +10,17 @@
     "french" : "français",
     "english" : "anglais",
     "german" : "allemand"
-  }
+  },
+  "EDUCATION" : {
+    "title" : "études",
+    "IsisTitle" : "ISIS Diplôme d'ingénieur en alternance",
+    "IsisDescription" : "Titre d'ingénieur ISIS (Informatique et Systèmes d'Information pour la Santé)",
+    "PeipTitle" : "PeiP — Classe préparatoire intégrée au groupe Polytech",
+    "PeipDescription": "L2, Cycle préparation aux écolés d'ingénieurs du groupe Polytech, formation généraliste",
+    "BnssaTitle" : "BNSSA — Nageur Sauveteur Albi Natation",
+    "BnssaDescription" : "Diplôme de nageur sauveteur"
+  },
+    "HOBBIES" :{
+      "title" : "loisirs"
+    }
 }
