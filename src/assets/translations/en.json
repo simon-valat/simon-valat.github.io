@@ -19,5 +19,8 @@
     "PeipDescription": "L2, Preparation cycle for the engineering schools of the Polytech network, general engineering",
     "BnssaTitle" : "BNSSA — Life guard, Albi swimming club",
     "BnssaDescription" : "Life guard diploma"
+  },
+  "HOBBIES" :{
+    "title" : "hobbies"
   }
 }

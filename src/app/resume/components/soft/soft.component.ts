@@ -10,11 +10,6 @@ export class SoftComponent {
   faScrewdriverWrench = faScrewdriverWrench;
   skills: Skill[] = [
     {
-      title: 'Visual Studio',
-      level: 4,
-      experience: 5,
-    },
-    {
       title: 'NodeJs',
       level: 3,
       experience: 4,
@@ -23,6 +18,16 @@ export class SoftComponent {
       title: 'TypeScript',
       level: 3,
       experience: 4,
+    },
+    {
+      title: 'C#',
+      level: 3,
+      experience: 5,
+    },
+    {
+      title: 'Visual Studio',
+      level: 4,
+      experience: 5,
     },
     {
       title: 'C#',

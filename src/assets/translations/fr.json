@@ -19,5 +19,8 @@
     "PeipDescription": "L2, Cycle préparation aux écolés d'ingénieurs du groupe Polytech, formation généraliste",
     "BnssaTitle" : "BNSSA — Nageur Sauveteur Albi Natation",
     "BnssaDescription" : "Diplôme de nageur sauveteur"
-  }
+  },
+    "HOBBIES" :{
+      "title" : "loisirs"
+    }
 }

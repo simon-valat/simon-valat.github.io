@@ -1,0 +1,11 @@
+<p-card>
+    <ng-template pTemplate="header">
+      <div class="flex gap-2 pl-4 pt-4 text-2xl font-bold">
+        <fa-icon class="icon" [icon]="faPizzaSlice"></fa-icon>
+        <span>{{ "HOBBIES.title" | translate | titlecase }}</span>
+      </div>
+    </ng-template>
+    <div class="flex flex-wrap align-items-center gap-4">
+        <fa-icon *ngFor="let hobby of hobbies" class="icon" size="2xl" [icon]="hobby"></fa-icon>
+    </div>
+</p-card>
