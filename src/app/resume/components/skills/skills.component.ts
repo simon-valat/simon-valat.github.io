@@ -23,7 +23,7 @@ export class SkillsComponent implements OnInit {
           pointBorderColor: documentStyle.getPropertyValue('--light-main'),
           pointHoverBackgroundColor: textColor,
           pointHoverBorderColor: documentStyle.getPropertyValue('--light-main'),
-          data: [7, 6, 7, 7, 4],
+          data: [8, 6, 7, 7, 4],
           backgroundColor : documentStyle.getPropertyValue('--dark-secondary')+'80',
           fill: true
         },
@@ -42,7 +42,10 @@ export class SkillsComponent implements OnInit {
             color : documentStyle.getPropertyValue('--dark-secondary')
           },
           pointLabels: {
-            color: textColorSecondary
+            color: textColorSecondary,
+            font: {
+              size: 20
+            }
           },
           ticks : {
             stepSize: 2

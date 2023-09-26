@@ -3,6 +3,8 @@
     "title" : "Technical leader / developper"
   },
   "SKILLS" : {
-    "Title" : "skills"
+    "technical" : "technical skills",
+    "soft": "other skills",
+    "year": "XP : {{value}} years"
   }
 }

@@ -1,0 +1,33 @@
+<p-card [header]="'SKILLS.soft' | translate | titlecase">
+  <div class="grid p-5 ">
+    <div class="col-12 md:col-12 lg:col-3" *ngFor="let skill of skills">
+      <p-card styleClass="skill-card" [header]="skill.title | titlecase">
+        <ul class="list-none p-0 m-0 flex align-content-center mt-2 gap-2">
+          <li
+            class="flex-1"
+            [ngClass]="skill.level >= 1 ? 'skill-level' : ''"
+          ></li>
+          <li
+            class="flex-1"
+            [ngClass]="skill.level >= 2 ? 'skill-level' : ''"
+          ></li>
+          <li
+            class="flex-1"
+            [ngClass]="skill.level >= 3 ? 'skill-level' : ''"
+          ></li>
+          <li
+            class="flex-1"
+            [ngClass]="skill.level >= 4 ? 'skill-level' : ''"
+          ></li>
+          <li
+            class="flex-1"
+            [ngClass]="skill.level == 5 ? 'skill-level' : ''"
+          ></li>
+        </ul>
+        <ng-template pTemplate="footer">
+          <span>{{ "SKILLS.year" | translate:{value: skill.experience} }}</span>
+        </ng-template>
+      </p-card>
+    </div>
+  </div>
+</p-card>

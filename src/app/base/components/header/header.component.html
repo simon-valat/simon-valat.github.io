@@ -1,14 +1,7 @@
-<div class="card">
+<!-- <div class="card">
   <p-menubar [model]="menuItems">
       <ng-template pTemplate="start">
-        <div class="flex gap-8">
-          <div class="flex align-items-center">
-            <h1 class="uppercase">Simon Valat</h1>
-          </div>
-          <div class="flex align-items-center">
-            <span class="text-xl">{{'BASE.title' | translate | uppercase}}</span>
-          </div>
-        </div>
+
       </ng-template>
       <ng-template pTemplate="end">
         <div class="flex gap-2 pr-2">
@@ -23,4 +16,27 @@
         </div>
       </ng-template>
   </p-menubar>
+</div> -->
+
+<div class="flex flex-wrap align-items-center justify-content-between p-2 card">
+  <div class="flex gap-8">
+    <div class="flex align-items-center">
+      <h1 class="uppercase title">Simon Valat</h1>
+    </div>
+    <div class="flex align-items-center">
+      <span class="text-xl title">{{'BASE.title' | translate | uppercase}}</span>
+    </div>
+  </div>
+  <div>
+    <div class="flex gap-2 pr-2">
+      <div class="flex align-items-center">
+        <p-button styleClass="p-button-text" (click)="onLangChange()">
+          <img [src]="'assets/images/'+lang+'.png'" style="width: 1.5rem" />
+      </p-button>
+      </div>
+      <div class="flex align-items-center">
+        <p-inputSwitch [(ngModel)]="darkTheme" (onChange)="onThemeChange()"></p-inputSwitch>
+      </div>
+    </div>
+  </div>
 </div>

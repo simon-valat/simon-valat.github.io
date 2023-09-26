@@ -1,0 +1,18 @@
+:host ::ng-deep .p-card.skill-card {
+    background-color: var(--light-main);
+    color: var(--dark-main);
+}
+
+
+:host ::ng-deep .p-card.skill-card .p-card-title {
+    font-size: 1.25rem;
+}
+
+li {
+    background-color: var(--dark-secondary);
+    height: 7px; border-radius: 3px;
+}
+
+li.skill-level{
+    background-color:var(--dark-main) !important;
+}
