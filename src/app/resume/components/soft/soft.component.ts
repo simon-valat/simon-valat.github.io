@@ -31,12 +31,12 @@ export class SoftComponent {
     },
     {
       title: 'Azure Devops',
-      level: 3,
+      level: 2,
       experience: 2,
     },
     {
       title: 'Jira',
-      level: 3,
+      level: 2,
       experience: 2,
     },
     {

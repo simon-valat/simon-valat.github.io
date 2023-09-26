@@ -44,7 +44,8 @@ export class SkillsComponent implements OnInit {
           pointLabels: {
             color: textColorSecondary,
             font: {
-              size: 20
+              size: 20,
+              family : 'Biome'
             }
           },
           ticks : {
@@ -57,6 +58,12 @@ export class SkillsComponent implements OnInit {
           max : 10,
         }
       },
+      elements :{
+        point : {
+          radius : 5,
+          hoverRadius : 7
+        }
+      }
     }
   }
 
