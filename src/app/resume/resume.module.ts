@@ -4,6 +4,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { SharedModule } from '../shared/shared.module';
 import { SoftComponent } from './components/soft/soft.component';
+import { LanguagesComponent } from './components/languages/languages.component';
 
 
 
@@ -11,7 +12,8 @@ import { SoftComponent } from './components/soft/soft.component';
   declarations: [
     ResumeComponent,
     SkillsComponent,
-    SoftComponent
+    SoftComponent,
+    LanguagesComponent
   ],
   imports: [
     SharedModule,

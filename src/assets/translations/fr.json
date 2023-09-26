@@ -4,7 +4,11 @@
   },
   "SKILLS" : {
     "technical" : "compétences techniques",
-    "soft": "compétences autres",
-    "year": "XP : {{value}} ans"
+    "soft": "autres compétences",
+    "year": "XP : {{value}} ans",
+    "languages" : "langues",
+    "french" : "français",
+    "english" : "anglais",
+    "german" : "allemand"
   }
 }

@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { Skill } from '../../models/skills';
-
+import { faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-soft',
   templateUrl: './soft.component.html',
   styleUrls: ['./soft.component.css'],
 })
 export class SoftComponent {
+  faScrewdriverWrench = faScrewdriverWrench;
   skills: Skill[] = [
     {
       title: 'Visual Studio',

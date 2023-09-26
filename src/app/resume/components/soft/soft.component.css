@@ -16,3 +16,7 @@ li {
 li.skill-level{
     background-color:var(--dark-main) !important;
 }
+
+.icon {
+    color : var(--light-main);
+}

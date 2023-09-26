@@ -1,6 +1,12 @@
 
-<p-card [header]="'SKILLS.technical' | translate | titlecase">
-<div class="flex justify-content-center align-items-center max-h-20rem p-5">
-  <p-chart type="radar" [data]="data" [options]="options" class="h-full w-full"></p-chart>
+<p-card>
+  <ng-template pTemplate="header">
+    <div class="flex align-items-center gap-2 pl-4 pt-4 text-2xl font-bold">
+        <fa-icon class="icon" [icon]="faGear"></fa-icon>
+        <span >{{'SKILLS.technical' | translate | titlecase}}</span>
+    </div>
+</ng-template>
+<div>
+  <p-chart type="radar" [data]="data" [options]="options"></p-chart>
 </div>
 </p-card>

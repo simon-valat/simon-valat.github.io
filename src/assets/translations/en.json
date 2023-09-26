@@ -5,6 +5,10 @@
   "SKILLS" : {
     "technical" : "technical skills",
     "soft": "other skills",
-    "year": "XP : {{value}} years"
+    "year": "XP : {{value}} years",
+    "languages" : "languages",
+    "french" : "french",
+    "english" : "english",
+    "german" : "german"
   }
 }

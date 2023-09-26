@@ -1,6 +1,12 @@
-<p-card [header]="'SKILLS.soft' | translate | titlecase">
-  <div class="grid p-5 ">
-    <div class="col-12 md:col-12 lg:col-3" *ngFor="let skill of skills">
+<p-card>
+  <ng-template pTemplate="header">
+    <div class="flex align-items-center gap-2 pl-4 pt-4 text-2xl font-bold">
+        <fa-icon class="icon" [icon]="faScrewdriverWrench"></fa-icon>
+        <span >{{'SKILLS.soft' | translate | titlecase}}</span>
+    </div>
+</ng-template>
+  <div class="grid">
+    <div class="col-6 md:col-6 lg:col-3" *ngFor="let skill of skills">
       <p-card styleClass="skill-card" [header]="skill.title | titlecase">
         <ul class="list-none p-0 m-0 flex align-content-center mt-2 gap-2">
           <li

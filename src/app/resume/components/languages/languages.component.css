@@ -1,0 +1,11 @@
+.skill-bar{
+    background-color: var(--light-main);
+}
+
+.skill {
+    background-color: var(--dark-secondary);
+}
+
+.icon {
+    color : var(--light-main);
+}

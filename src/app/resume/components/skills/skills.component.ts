@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { faGear } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SkillsComponent implements OnInit {
   data: any;
   options: any;
-
+  faGear = faGear;
   ngOnInit(): void {
     const documentStyle = getComputedStyle(document.documentElement);
     const textColor = documentStyle.getPropertyValue('--light-main');
